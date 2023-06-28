@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+<div class="p-2">
+  <label for="date" class="me-1">Date:</label>
+  <input [inputMask]="dateInputMask" [formControl]="dateFC" placeholder="dd/mm/yyyy" />
+</div>
+<div class="p-2">
+  <label for="currency" class="me-1">Currency:</label>
+  <input [inputMask]="currencyInputMask" [formControl]="currencyFC" placeholder="$ 0.00" />
+</div>
+<div class="p-2">
+  <label for="licence" class="me-1">License Plate:</label>
+  <input [inputMask]="licenseInputMask" [formControl]="licenseFC" placeholder="___-___" />
+</div>
+<div class="p-2">
+  <label for="email" class="me-1">Email:</label>
+  <input [inputMask]="emailInputMask" [formControl]="emailFC" placeholder="_@_._" />
+</div>
